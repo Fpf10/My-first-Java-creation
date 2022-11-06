@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(30deg, lightsteelblue, lightblue, cyan);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.content {
+    padding: 100px;
+}
+
+input {
+    border-radius: 70px;
+    padding: 0 10px;
+    border-color: blue;
+    border-width: 2px;
+    transition: scale 0.8s;
+    transition-delay: 0.2s;
+}
+
+input:focus {
+    color: lightblue;
+    scale: 1.02;
+}
+
+button {
+    border-radius: 10px;
+    background: black;
+    color: white;
+    transition: scale 0.8s;
+    transition-delay: 0.2s;
+}
+
+button:hover {
+    color: cyan;
+    scale: 1.05;
+}
